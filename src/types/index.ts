@@ -2,7 +2,7 @@ export type Car = {
   id: string;
   plate: string;
   make: string;
-  model: string;
+  model?: string;
   year: number;
   colour: string;
   fuelType: string;
