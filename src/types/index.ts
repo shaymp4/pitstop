@@ -1,11 +1,14 @@
-// app/garage/types.ts
 export type Car = {
   id: string;
   plate: string;
   make: string;
   model: string;
   year: number;
-  fuel?: string;
+  colour: string;
+  fuelType: string;
+  engineSize?: string;
+  taxStatus: string;
+  motStatus: string;
 };
 
 export type Quote = {
